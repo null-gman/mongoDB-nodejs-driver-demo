@@ -17,6 +17,21 @@ Found a bug or improvement or just want to contribute to this repo, feel free to
 
 # reference 
 ## **fundamentals**
+#### first you need to **mongodb connection** , then what is that ?
+  
+it's the service that work in background or even on the cloud like [mongoDB atlas](https://www.mongodb.com/atlas) , or hosted on you local machine on **localhost 127.0.0.1** , to conict the server with mongoDB pkg api you need a **connection string** .
+
+#### great now you have the connection ,what's now ?
+now choose the **DataBase** that wan't to work with .
+
+```js
+    const connectionString = "mongodb://127.0.0.1:27017/"; /*my mongoDB  connection string*/
+    const client = new MongoClient(connectionString); /* using MongoClient to create a connection */
+    const database = client.db('games'); /*chooseing the DataBase*  /
+    await client.close(); /* to close the connection */
+```
+
 ## the methodes that used and there explanation
-|**methode**| **prameters**|**return**|**explanation**|
-|-----------|--------------|----------|---------------|
+|**methode**| **prameters**|**return**|**explanation**|**async**|
+|-----------|--------------|----------|---------------|-----------------|
+|database.collection()|string:collection|collection object|member method on dataBase object take the collection name and return the collection object|true|
