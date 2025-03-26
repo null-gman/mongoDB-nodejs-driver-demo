@@ -3,17 +3,25 @@
   "version": "1.0.0",
   "description": "a demo for mongoDB api in nodejs .",
   "main": "main.js",
-  "scripts": {
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/null-gman/mongoDB-nodejs-driver-demo.git"
   },
-  "keywords": ["nodejs","mongoDB","noSql","DBMS","dataBase"],
+  "keywords": [
+    "nodejs",
+    "mongoDB",
+    "noSql",
+    "DBMS",
+    "dataBase"
+  ],
   "author": "https://github.com/null-gman",
   "license": "GPL-3.0-only",
   "bugs": {
     "url": "https://github.com/null-gman/mongoDB-nodejs-driver-demo/issues"
   },
-  "homepage": "https://github.com/null-gman/mongoDB-nodejs-driver-demo#readme"
+  "homepage": "https://github.com/null-gman/mongoDB-nodejs-driver-demo#readme",
+  "dependencies": {
+    "mongodb": "^6.15.0"
+  }
 }
