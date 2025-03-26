@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "a demo for mongoDB api in nodejs .",
   "main": "main.js",
-  "scripts": {},
+  "type": "commonjs",
+  "scripts": {
+    "start": "node ./main.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/null-gman/mongoDB-nodejs-driver-demo.git"
