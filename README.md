@@ -15,3 +15,8 @@ to lean **mongoDB** from scratch i recomend to check the [mongoDB docs](https://
 # contributing
 Found a bug or improvement or just want to contribute to this repo, feel free to use the **issues** section and fork and pull requested.
 
+# reference 
+## **fundamentals**
+## the methodes that used and there explanation
+|**methode**| **prameters**|**return**|**explanation**|
+|-----------|--------------|----------|---------------|
