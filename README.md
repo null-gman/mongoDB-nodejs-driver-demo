@@ -25,10 +25,10 @@ it's the service that work in background or even on the cloud like [mongoDB atla
 now choose the **DataBase** that wan't to work with .
 
 ```js
-    const connectionString = "mongodb://127.0.0.1:27017/"; /*my mongoDB  connection string*/
-    const client = new MongoClient(connectionString); /* using MongoClient to create a connection */
-    const database = client.db('games'); /*chooseing the DataBase*  /
-    await client.close(); /* to close the connection */
+const connectionString = "mongodb://127.0.0.1:27017/"; /*my mongoDB  connection string*/
+const client = new MongoClient(connectionString); /* using MongoClient to create a connection */
+const database = client.db('games'); /*chooseing the DataBase*  /
+await client.close(); /* to close the connection */
 ```
 
 ## the methodes that used and there explanation
